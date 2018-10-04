@@ -1,0 +1,14 @@
+<p>All students:</p>
+
+<% for student in @students %>
+<p>
+  First name: <%= student.first_name() %>
+  <br>
+  Last name: <%= student.last_name() %>
+  <br>
+  House: <%= student.house_id() %>
+  <br>
+  Age: <%= student.age() %>
+</p>
+
+<% end %>

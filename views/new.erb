@@ -1,0 +1,27 @@
+<form method="POST" action="/students">
+
+  <label for="first-name-input">First name:</label>
+  <input type="text" name="first_name" id="first-name-input"/>
+  <br>
+
+  <label for="last-name-input">Last name:</label>
+  <input type="text" name="last_name" id="last-name-input"/>
+  <br>
+
+  <label for="house-select">What house is this person in?</label>
+  <select name="house" id="house-select">
+    <option value="Griffindor">Griffindor</option>
+    <option value="Slytherin">Slytherin</option>
+    <option value="Hufflepuff">Hufflepuff</option>
+    <option value="Ravenclaw">Ravenclaw</option>
+  </select>
+
+  <br>
+  <label for="age-field">Age:</label>
+  <input type="number" name="age" id="age-field" min="15" max="45" />
+
+  <br>
+
+  <input type="submit" value="Save Student"/>
+
+</form>
